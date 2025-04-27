@@ -13,65 +13,65 @@ Columns: 12
 Target Variable: quality (binarized into Good (1) and Not Good (0))
 
 ## 🛠️ Main Steps
-Data Preprocessing
+- Data Preprocessing
 
-Handling missing values (none present)
+- Handling missing values (none present)
 
-Data visualization and exploration
+- Data visualization and exploration
 
-Feature selection based on correlation and feature importance
+- Feature selection based on correlation and feature importance
 
-Feature scaling (Min-Max Scaler)
+- Feature scaling (Min-Max Scaler)
 
-Data partitioning (Train/Test split)
+- Data partitioning (Train/Test split)
 
-Feature Engineering
+- Feature Engineering
 
-Created a binary target variable (quality_binary)
+- Created a binary target variable (quality_binary)
 
-Selected important features: alcohol, density, chlorides, volatile acidity, total sulfur dioxide
+- Selected important features: alcohol, density, chlorides, volatile acidity, total sulfur dioxide
 
-Model Training and Evaluation
+- Model Training and Evaluation
 
 ## Models Trained:
 
-Logistic Regression
+- Logistic Regression
 
-Random Forest Classifier
+- Random Forest Classifier
 
-XGBoost Classifier
+- XGBoost Classifier
 
-Support Vector Machine (SVM)
+- Support Vector Machine (SVM)
 
-K-Nearest Neighbors (KNN)
+- K-Nearest Neighbors (KNN)
 
-Gradient Boosting Classifier
+- Gradient Boosting Classifier
 
-SMOTE (Synthetic Minority Over-sampling Technique) was applied to handle class imbalance.
+- *SMOTE (Synthetic Minority Over-sampling Technique)* was applied to handle class imbalance.
 
 ## Evaluated models using:
 
-Accuracy
+- Accuracy
 
-Confusion Matrix
+- Confusion Matrix
 
-Classification Report (Precision, Recall, F1-Score)
+- Classification Report (Precision, Recall, F1-Score)
 
-Results Visualization
+- Results Visualization
 
-Plotted confusion matrices
+- Plotted confusion matrices
 
-Compared model performances using bar charts
+- Compared model performances using bar charts
 
 ## 🧪 Model Comparison Results
 
 Model	Accuracy
-Random Forest	78.7%
-Gradient Boosting	78.3%
-K-Nearest Neighbors (KNN)	77.8%
-Support Vector Machine	76.7%
-XGBoost	74.3%
-Logistic Regression	70.2%
+- Random Forest	78.7%
+- Gradient Boosting	78.3%
+- K-Nearest Neighbors (KNN)	77.8%
+- Support Vector Machine	76.7%
+- XGBoost	74.3%
+- Logistic Regression	70.2%
 ## ✅ Random Forest Classifier achieved the highest accuracy!
 
 ## 📈 Technologies Used
