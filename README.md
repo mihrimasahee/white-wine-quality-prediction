@@ -1,9 +1,9 @@
-🍷 Wine Quality Prediction Project
-📖 Project Overview
+# Wine Quality Prediction Project
+## 📖 Project Overview
 This project focuses on evaluating and comparing multiple machine learning models to predict the quality of white wines based on physicochemical tests.
 The Wine Quality dataset was analyzed, and several classification models were built and compared to determine the best-performing algorithm.
 
-📂 Dataset
+## 📂 Dataset
 Source: Wine Quality Dataset (White Wine)
 
 Rows: 4898
@@ -12,7 +12,7 @@ Columns: 12
 
 Target Variable: quality (binarized into Good (1) and Not Good (0))
 
-🛠️ Main Steps
+## 🛠️ Main Steps
 Data Preprocessing
 
 Handling missing values (none present)
@@ -33,7 +33,7 @@ Selected important features: alcohol, density, chlorides, volatile acidity, tota
 
 Model Training and Evaluation
 
-Models Trained:
+## Models Trained:
 
 Logistic Regression
 
@@ -49,7 +49,7 @@ Gradient Boosting Classifier
 
 SMOTE (Synthetic Minority Over-sampling Technique) was applied to handle class imbalance.
 
-Evaluated models using:
+## Evaluated models using:
 
 Accuracy
 
@@ -63,7 +63,7 @@ Plotted confusion matrices
 
 Compared model performances using bar charts
 
-🧪 Model Comparison Results
+## 🧪 Model Comparison Results
 
 Model	Accuracy
 Random Forest	78.7%
@@ -72,21 +72,21 @@ K-Nearest Neighbors (KNN)	77.8%
 Support Vector Machine	76.7%
 XGBoost	74.3%
 Logistic Regression	70.2%
-✅ Random Forest Classifier achieved the highest accuracy!
+## ✅ Random Forest Classifier achieved the highest accuracy!
 
-📈 Technologies Used
-Python 3
+## 📈 Technologies Used
+- Python 3
 
-Pandas
+- Pandas
 
-Matplotlib & Seaborn
+- Matplotlib & Seaborn
 
-Scikit-learn
+- Scikit-learn
 
-XGBoost
+- XGBoost
 
-Imbalanced-learn (SMOTE)
+- Imbalanced-learn (SMOTE)
 
 
-📬 Contact
+## 📬 Contact
 For questions or collaborations, feel free to connect with me at shakera.sahee@gmail.com.
